@@ -1,0 +1,158 @@
+body {
+	background-color: #195f77;
+}
+/*^^ Set the background color for entire page*/
+h1 {
+	font-family: Gill Sans;
+	color:#fff9f3;
+}
+nav h1{
+	border:6px solid #243949;
+	border-radius: 7px;
+	background-color: #470019;
+}
+
+
+footer{
+	text-align:center;
+	clear:both;
+}
+
+/*Design for the CenterPositioned Header*/
+#centerHead{
+
+	height:50px;
+	width:180px;
+	border-radius: 5px;
+	display:block;
+	background-color:black;
+	margin-left:50%;
+	position:fixed;
+
+}
+/*Navigation Bar code*/
+.Nav{
+	color:white;
+	display:inline-block;
+	font-family:Verdana;
+	border:2px solid black;
+	border-radius: 10px;
+	height: 600px;
+	widows: 100px;
+	position: absolute;
+	margin-top:5%;
+	margin-left:5%;
+	background-color: #008080;
+
+}
+
+nav ul li{
+	display: block;
+	font-family: Helvetica;
+
+}
+
+#divNav{
+	border:2px solid #536878;
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	height: 10px;
+	width: 24px;
+	
+}
+
+a.nOne:hover{
+	color:#4c7cff;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.nOne:visited{
+	text-decoration: none;
+}
+a.nOne{
+	border:2px dashed #536878;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+}
+
+/*Content Area code*/
+.main{
+	border:3px solid black;
+	background-color: white;
+	float: right;
+	margin-top: 8%;
+	margin-right:10%;
+	width:70%;
+	height:500px;
+}
+
+#inboxView{
+	font-family: Rockwell, serif;
+	color:black;
+	font-size:18px;
+
+}
+
+
+/*code that controls first 2 col. Sender and subject which are clickable URL's*/
+#sender{
+	border:1px solid transparent;
+	dsiplay: inline-block;
+	padding:1px 2px 2px 1px;
+}
+#subject{
+	border:1px solid transparent;
+	dsiplay: inline-block;
+	padding:1px 2px 2px 1px;
+}
+a.sendLink{
+	text-decoration: none;
+	font-weight:bold;
+	color:black;
+}
+a.sendLink:hover {
+	font-weight: bold;
+	font-size:20px;
+}
+
+a.sendLink:visited{
+	font-family:Arial;
+	font-weight: normal;
+}
+
+a.msgLink{
+	text-decoration: none;
+	font-weight:bold;
+	color:black;
+}
+
+/*msgPreview should not have any interactions*/
+#msgPreview {
+	border:1px dotted gray;
+	dsiplay: inline-block;
+	padding:1px 2px 2px 1px;
+	font-family:Arial;
+	font-size: 14px;
+	width:750px;
+	height: 60px;
+}
+#msg {
+	padding-top:1%;
+}
+
+#dateDiv{
+	border:1px solid transparent;
+	dsiplay: inline-block;
+	padding:1px 2px 2px 1px;
+	position: relative;
+	top:4px;
+
+
+}
+
+#date {
+	font-weight: Bolder;
+}

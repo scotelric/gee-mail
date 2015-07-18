@@ -2,17 +2,83 @@
 	<head>
 		<script src="js/mail-generator.js"></script>
 		<link href="css/style.css" rel="stylesheet" media="screen">
-    <script>
+
+	<script>
       window.onload = function(){
         // ALL OF YOUR JAVASCRIPT CODE SHOULD GO HERE. 
         // We have to use window.onload so your JavaScript doesn't execute until the page has loaded and all HTML has been downloaded to your browser
-        
-      };
+
+
+        };
     </script>
+    		<title>MyGeeMail</title>
 	</head>
-	<body>
-		<div class="container" id="main">
-			Build Me!
-		</div>
-	</body>
+		<body>
+			<header>
+			<div id="centerHead">
+				<h1>GEEMAIL</h1>
+			</div>
+			</header>
+
+			<!--Navigation Bar to the Left-->
+				<div class="Nav">
+					<nav>
+						<h1>Navigation</h1>
+						<ul>
+							<li><div class="divNav">Inbox</div></li>
+							<li><p></p></li>
+							<li><div class="divNav">Deleted</div></li>
+							<li><p></p></li>
+							<li><a class= "nOne" href="">Sent</a></li>
+							<li><p></p></li>
+							<li><a class= "nOne" href="">Draft</a></li>
+						</ul>
+					</nav>
+				</div>	
+
+
+			<div class="main">
+				<table id="inboxView">
+					<tbody>
+						<tr>
+							<td>
+								<div id ="sender">
+									<p class="sendLink"></p>
+								</div>
+							</td>
+
+							<td></td> <!--To make space between sender and subject-->
+
+							<td>
+								<div id ="subject">
+									<p class="sendLink"><a class="msgLink" href="">Request for Schedule Change</a></p>
+								</div>
+							</td>
+
+							<td></td> <!--To make space between subject and msgPreview-->
+
+							<td>
+								<div id = "msgPreview">
+									<p id ="msg">Hi, Scot can you cover for me on wednesday?</p>
+								</div>
+							</td>
+
+							<td></td><!--To make space between msgPreview and date received-->
+
+							<td>
+								<div id ="dateDiv">
+									<p id ="date">Jul 16</p>
+
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<footer>&copy;2015</footer>
+			
+
+
+		</body>
 </html>
